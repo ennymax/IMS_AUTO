@@ -1,0 +1,21 @@
+<suite name="Suite">
+    <test name = "Parallel Tests" parallel = "methods" thread-count = "3" group-by-instances="false" >
+        <classes>
+            <class name="com.Module.Audit.DownloadAuditList"/>
+            <class name="com.Module.Audit.ViewAuditListPage"/>
+
+            <class name="com.Module.BinCard.ViewBinCard"/>
+
+            <class name="com.Module.ManageInventry.AddInventory"/>
+            <class name="com.Module.ManageInventry.DownloadInventory"/>
+            <class name="com.Module.ManageInventry.ReceiveInventory"/>
+            <class name="com.Module.ManageInventry.ReceiveInventoryByInvoice"/>
+            <class name="com.Module.ManageInventry.UpdateInventory"/>
+            <class name="com.Module.ManageInventry.ViewReceivedInventory"/>
+            <class name="com.Module.ManageInventry.ViewInventory"/>
+
+            <class name="com.Module.UpdateOfValue_I_and_QA.ApprovedSupply"/>
+
+        </classes>
+    </test>
+</suite>

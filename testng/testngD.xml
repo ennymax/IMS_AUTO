@@ -1,0 +1,19 @@
+<suite name="Suite">
+    <test name = "Parallel Tests" parallel = "methods" thread-count = "3" group-by-instances="false" >
+        <classes>
+            <class name="com.Module.ManageRole.AddNewRole"/>
+            <class name="com.Module.ManageRole.RemoveRole"/>
+            <class name="com.Module.ManageRole.UpdateRole"/>
+            <class name="com.Module.ManageRole.ViewRole"/>
+
+            <class name="com.Module.ManageUsers.AddNewUser"/>
+            <class name="com.Module.ManageUsers.DownloadLastUserLogin"/>
+            <class name="com.Module.ManageUsers.DownloadUser"/>
+            <class name="com.Module.ManageUsers.RemoveUser"/>
+            <class name="com.Module.ManageUsers.UpdateUser"/>
+            <class name="com.Module.ManageUsers.ViewUsers"/>
+            <class name="com.Module.ManageUsers.RemoveUser"/>
+
+        </classes>
+    </test>
+</suite>

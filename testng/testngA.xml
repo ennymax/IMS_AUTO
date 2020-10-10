@@ -1,0 +1,22 @@
+<suite name="Suite">
+    <test name = "Parallel Tests" parallel = "methods" thread-count = "3" group-by-instances="false" >
+            <classes>
+            <class name="com.Module.ManageCategory.NewInventryCategory"/>
+            <class name="com.Module.ManageCategory.RemoveCategory"/>
+            <class name="com.Module.ManageCategory.Suspend_UnsuspendCategory"/>
+            <class name="com.Module.ManageCategory.UpdateInventoryCategory"/>
+
+            <class name="com.Module.ManageProductCategory.CreateProductCategory"/>
+            <class name="com.Module.ManageProductCategory.RemoveProductCategory"/>
+            <class name="com.Module.ManageProductCategory.UpdateProductCategory"/>
+
+            <class name="com.Module.ManageSupplier.CreateSupplier"/>
+            <class name="com.Module.ManageSupplier.RemoveSuppplier"/>
+            <class name="com.Module.ManageSupplier.UpdateSupplier"/>
+
+            <class name="com.Module.MaterialIssuanceReport.RecieveDashBoardFilter"/>
+            <class name="com.Module.MaterialIssuanceReport.ViewDashboard"/>
+
+        </classes>
+    </test>
+</suite>

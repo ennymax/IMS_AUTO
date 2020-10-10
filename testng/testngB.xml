@@ -1,0 +1,18 @@
+<suite name="Suite">
+    <test name = "Parallel Tests" parallel = "methods" thread-count = "3" group-by-instances="false" >
+        <classes>
+            <class name="com.Module.InventryStatus.AddNewInventoryStatusRule"/>
+            <class name="com.Module.InventryStatus.NewInventoryStatus"/>
+            <class name="com.Module.InventryStatus.RemoveInventoryStatus"/>
+            <class name="com.Module.InventryStatus.RemoveInventoryStatusRule"/>
+            <class name="com.Module.InventryStatus.UpdateItemStatus"/>
+            <class name="com.Module.InventryStatus.UpdateInventryStatusRule"/>
+            <class name="com.Module.InventryStatus.ViewInventoryStatusRule"/>
+            <class name="com.Module.InventryStatus.ViewInventryStatus"/>
+            <class name="com.Module.InventryStatus.UpdateInventoryStatus"/>
+
+            <!--class name="com.Module.ReturnInventryToSuppliers.ReturnInventoryToSuppliers"/-->
+            <class name="com.Module.ManageEmailAerts.CreateEmailAlerts"/>
+        </classes>
+    </test>
+</suite>
